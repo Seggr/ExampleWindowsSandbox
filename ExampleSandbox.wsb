@@ -1,0 +1,18 @@
+<Configuration>
+    <ProtectedClient>false</ProtectedClient>
+    <MappedFolders>
+        <MappedFolder>
+            <HostFolder>C:\[MAKE YOUR OWN PATH]</HostFolder>
+            <SandboxFolder>C:\Documents</SandboxFolder>
+            <ReadOnly>true</ReadOnly>
+        </MappedFolder>
+        <MappedFolder>
+            <HostFolder>C:\[MAKE YOUR OWN PATH]</HostFolder>
+            <SandboxFolder>C:\Scripts</SandboxFolder>
+            <ReadOnly>true</ReadOnly>
+        </MappedFolder>
+    </MappedFolders>
+    <LogonCommand>
+        <Command>C:\Scripts\InstallApps.bat</Command>
+    </LogonCommand>
+</Configuration>
