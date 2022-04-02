@@ -2,8 +2,8 @@
 This is a sample configuration and startup script for a [Windows feature called Sandbox](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-sandbox/)
 
 ## What is that?
-it is a very fast, very small footprint, isolated, epemeral instance of your copy of windows running in a window. 
-It's kinda like a Virtual Machine but not, Nothing you save on this thing will persist so don't "restart" it unless you are done done with everything, the fact nothing is saved is a feature.
+it is a very fast, very small footprint, isolated, epemeral instance of your copy of windows running in a special RDP Window. 
+It's kinda like a Virtual Machine but not like your probably used to, Nothing you save on this thing will persist so don't "restart" it unless you are done done with everything, the fact nothing is saved is a feature.
 
 ## Why do I care?
 Well do you ever wish you could access your personal private resources on a computer? Say maybe, a work computer where you have permissoins to enable a Windows Feature? Lets say you do or if this is your own computer and you want some additional privacy or hell say you want to open a file that your not entirely sure to wether or not its a virius but still really want to open it, the usecases are limitless.
@@ -14,7 +14,7 @@ Thats it, double click the ExampleSandbox.wsb, profit.
 
 ```XML
 <Configuration>
-    <ProtectedClient>false</ProtectedClient>
+    ...
     <MappedFolders>
         <MappedFolder>
             <HostFolder>[MAKE YOUR OWN PATH]</HostFolder>
@@ -27,9 +27,7 @@ Thats it, double click the ExampleSandbox.wsb, profit.
             <ReadOnly>true</ReadOnly>
         </MappedFolder>
     </MappedFolders>
-    <LogonCommand>
-        <Command>C:\Scripts\InstallApps.bat</Command>
-    </LogonCommand>
+    ...
 </Configuration>
 ```
 

@@ -1,5 +1,6 @@
 <Configuration>
-    <ProtectedClient>false</ProtectedClient>
+    <ProtectedClient>Default</ProtectedClient>
+    <Networking>Default</Networking>
     <MappedFolders>
         <MappedFolder>
             <HostFolder>C:\[MAKE YOUR OWN PATH]</HostFolder>
