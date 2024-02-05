@@ -1,5 +1,5 @@
 # What is this?
-This is a sample configuration and startup script for a [Windows feature called Sandbox](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-sandbox/)
+This is a sample configuration and startup script for a [Windows feature called Sandbox](https://learn.microsoft.com/en-us/windows/security/application-security/application-isolation/windows-sandbox/windows-sandbox-overview)
 
 ## What is that?
 It is a very fast, very small footprint, isolated, ephemeral instance of your copy of windows running in a special RDP Window. 
